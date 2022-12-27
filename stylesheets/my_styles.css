@@ -10,7 +10,7 @@ nav {
 
 #Home-margin {
   margin: 100px 0;
-  padding: 5% 10%;
+  padding: 3% 10%;
 }
 
 .Home-Font {
@@ -46,6 +46,11 @@ input[type="submit"]:hover {
   border-radius: 5px;
   background-color: black;
   padding: 20px;
+}
+label {
+  font-size: large;
+  color: black;
+  font-weight: 400;
 }
 
 #contactalign {
