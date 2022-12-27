@@ -2,6 +2,15 @@ nav {
   background-color: #35297f;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto";
+}
+
 .Home-Image {
   width: 90%;
   height: 70%;
@@ -15,6 +24,18 @@ nav {
 
 .Home-Font {
   font-size: large;
+}
+
+.card-text {
+  font-family: "Roboto";
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+ul {
+  font-family: "Roboto";
+  font-size: 18px;
+  letter-spacing: 0.5px;
 }
 
 input[type="text"] {
