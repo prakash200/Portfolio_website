@@ -18,6 +18,8 @@
       src="https://kit.fontawesome.com/31149d48b0.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
   </head>
   <body style="color: white;background-color: black;">
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
@@ -524,22 +526,21 @@
     <section id="Contact">
       <div class="container mt-5 contactContent">
         <h1 class="text-center" >Contact Me</h1>
-
         <div class="row mt-5">
           <div class="col-lg-6" id="Form-id" style="background-color: goldenrod;">
             <!-- form fields -->
-            <form action="#">
+            <form action="" id="myForm">
               <label for="fname">Name</label>
               <input
                 type="text"
                 id="fname"
-                name="firstname"
+                name="Name"
                 placeholder="Your name.."
               />
 
               <label for="lname">Email</label>
               <input type="text" id="Email" name="Email" placeholder="Email" />
-              <label for="lname">Message</label>
+              <label for="text" id="Message" name="Message">Message</label>
               <input
                 type="text"
                 id="Message"
@@ -547,8 +548,9 @@
                 placeholder="Message"
               />
 
-              <input type="submit" value="Send" />
+              <input onclick="SubForm()" type="submit" value="Send" />
             </form>
+            <p id="Message-Sent" style="display: none;color:blue;font-weight:bolder;font-size:x-large" class="text-center mt-2">Message Sent</p>
           </div>
           <div class="col-lg-6" >
             <div class="container">
