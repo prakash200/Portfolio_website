@@ -1,3 +1,8 @@
+.body {
+  color: white;
+  background-color: black;
+}
+
 nav {
   background-color: #35297f;
 }
@@ -13,16 +18,19 @@ h5 {
 .Home-Image {
   width: 95%;
   height: auto;
-  margin: 100px 0;
+  margin: 6rem auto;
 }
 
 #Home-margin {
-  margin: 70px 0;
+  margin: 70px auto;
   padding: 3% 10%;
 }
 
 .Home-Font {
-  font-size: large;
+  font-size: larger;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-family: "Roboto";
 }
 
 .card-text {
